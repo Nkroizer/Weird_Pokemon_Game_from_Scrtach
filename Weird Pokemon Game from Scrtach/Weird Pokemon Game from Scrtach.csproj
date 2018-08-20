@@ -54,6 +54,7 @@
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="Item.cs" />
+    <Compile Include="Medicine.cs" />
     <Compile Include="Pokemon.cs" />
     <Compile Include="Poke_Nature_Enum.cs" />
     <Compile Include="Poke_Sex_Enum.cs" />
