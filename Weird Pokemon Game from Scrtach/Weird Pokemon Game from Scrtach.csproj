@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Base_Stats.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -54,7 +55,9 @@
     </Compile>
     <Compile Include="Item.cs" />
     <Compile Include="Pokemon.cs" />
+    <Compile Include="Poke_Nature_Enum.cs" />
     <Compile Include="Poke_Sex_Enum.cs" />
+    <Compile Include="Poke_Status_Enum.cs" />
     <Compile Include="Poke_Type_Enum.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
