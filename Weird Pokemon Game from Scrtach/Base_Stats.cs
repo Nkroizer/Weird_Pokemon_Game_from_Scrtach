@@ -6,15 +6,16 @@ using System.Threading.Tasks;
 
 namespace Weird_Pokemon_Game_from_Scrtach
 {
+    //This class is in charge of the base stats of each pokemon (e.g. the base attack and defense each pokemon starts with)
     class Base_Stats
     {
         #region Variables
-        private int HP;
-        private int Attack;
-        private int Defense;
-        private int Sp_Atk;
-        private int Sp_Def;
-        private int Speed;
+        private int HP;      //Base Life Points
+        private int Attack;  //Base Attack Points
+        private int Defense; //Base Defense  Points
+        private int Sp_Atk;  //Base Special Attack Points
+        private int Sp_Def;  //Base Special Defense Points
+        private int Speed;   //Base Speed
         #endregion
 
         #region Get/Set
@@ -101,6 +102,5 @@ namespace Weird_Pokemon_Game_from_Scrtach
         {
 
         }
-
     }
 }

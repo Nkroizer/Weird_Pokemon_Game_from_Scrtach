@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace Weird_Pokemon_Game_from_Scrtach
 {
-    class Medicine: Item
+    class Medicine : Item
     {
         private int HP_Restore;
-        private Poke_Status_Enum.Status_Condition Status_Heal;
+        private Poke_Status_Enum.Continuous_Status_Condition Status_Heal;
 
         public Medicine()
         {
@@ -29,7 +29,7 @@ namespace Weird_Pokemon_Game_from_Scrtach
             }
         }
 
-        internal Poke_Status_Enum.Status_Condition Status_Heal1
+        internal Poke_Status_Enum.Continuous_Status_Condition Status_Heal1
         {
             get
             {

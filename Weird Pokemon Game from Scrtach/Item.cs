@@ -10,6 +10,7 @@ namespace Weird_Pokemon_Game_from_Scrtach
     {
         private string Name;
         private int Price;
+        private int Sell_For;
         private string Description;
 
         public Item()
@@ -40,6 +41,19 @@ namespace Weird_Pokemon_Game_from_Scrtach
             set
             {
                 Price = value;
+            }
+        }
+
+        public int Sell_For1
+        {
+            get
+            {
+                return Sell_For;
+            }
+
+            set
+            {
+                Sell_For = value;
             }
         }
 

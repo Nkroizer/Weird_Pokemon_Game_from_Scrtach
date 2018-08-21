@@ -17,7 +17,6 @@ namespace Weird_Pokemon_Game_from_Scrtach
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
-            Medicine x = new Medicine();
         }
     }
 }
